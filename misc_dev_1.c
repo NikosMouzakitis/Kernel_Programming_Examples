@@ -73,7 +73,8 @@ char_read(struct file *file, char __user *buffer, size_t size, loff_t *offset)
 		bytes_read++;
 	}
 */
-	return bytes_read;
+	return size;
+//	return bytes_read;
 }
 
 static int
